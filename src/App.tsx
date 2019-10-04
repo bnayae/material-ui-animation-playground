@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { Router } from 'react-router';
 import { createBrowserHistory } from "history";
-import Layout from './components/Layout';
+import Home from './components/Home';
 
 const App: React.FC = () => {
 
@@ -11,7 +11,7 @@ const App: React.FC = () => {
   return (
     <Router history={history}>
       <div className="App">
-        <Layout />
+        <Home />
       </div>
     </Router>
   );
