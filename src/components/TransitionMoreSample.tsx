@@ -44,7 +44,7 @@ export default function TransitionMoreSample(props: ITransitionMoreSampleProps) 
 
                 <Box p={1} width="40%" >
                     <TransitionGroup>
-                        <CSSTransition key={state} timeout={3000} classNames="page">
+                        <CSSTransition key={state} timeout={2500} classNames="page">
                             <Box position="absolute">
                                 <Paper key={state}>
                                     {contents[state]}
